@@ -1,0 +1,39 @@
+.loading-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: 1;
+  animation-name: fadeOut;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
+}
+
+.loading-container__logo {
+  margin: auto 0;
+  animation-name: load;
+  animation-duration: 2s;
+  position: relative;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes load {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 110%;
+  }
+}

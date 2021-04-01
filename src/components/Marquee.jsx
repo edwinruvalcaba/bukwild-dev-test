@@ -9,16 +9,15 @@ const Marquee = (props) => {
       {pageData.blocks.map((block, i) => {
         return (
           <div key={i} className="marquee-container">
-            <div className="headline-subhead-container">
+            <div className="headline-subhead__container">
               <h1 className="headline">{block.headline}</h1>
               <h2 className="subhead">{block.subhead}</h2>
             </div>
             <div className="cta">
               <p>{block.cta}</p>
-              <button className="talk-btn">
+              <button className="talk-btn" aria-label="Lets talk">
                 LET'S TALK.{' '}
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

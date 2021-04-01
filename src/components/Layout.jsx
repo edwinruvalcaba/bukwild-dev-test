@@ -7,7 +7,7 @@ const Layout = (props) => {
   return (
     <div className="layout-container">
       <div className="layout">
-        <div className="logo-menu-container">
+        <div className="logo-menu__container">
           <img src={logo} className="logo" alt="abc logo" />
           <ul className="menu">
             {data.pages.map((page, i) => {

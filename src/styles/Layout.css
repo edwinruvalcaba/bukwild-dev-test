@@ -12,12 +12,13 @@
   max-width: 1440px;
 }
 
-.logo-menu-container {
+.logo-menu__container {
   margin-right: 5rem;
 }
 
 .logo {
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 .menu {
