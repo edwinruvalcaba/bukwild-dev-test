@@ -1,0 +1,114 @@
+.marquee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 90vw;
+  max-width: 1440px;
+  height: 80%;
+}
+
+.headline-subhead-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  width: 45vw;
+  height: 25vh;
+  margin-bottom: 10rem;
+  font-size: calc(1.2em + 4vw);
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px;
+  color: white;
+}
+
+.subhead {
+  width: 30vw;
+  height: 20vh;
+  margin-right: 4rem;
+  font-size: calc(0.5em + 0.5vw);
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  color: white;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11.188rem;
+  background-color: white;
+  width: 90vw;
+  max-width: 1440px;
+  position: absolute;
+  bottom: 0;
+}
+
+.cta p {
+  height: auto;
+  width: auto;
+  margin-right: 10vw;
+  font-size: calc(0.6em + 1vw);
+  font-weight: bold;
+  letter-spacing: -0.63px;
+  white-space: nowrap;
+  color: black;
+}
+
+.talk-btn {
+  display: flex;
+  width: auto;
+  margin-right: 20vw;
+  background: none;
+  border: none;
+  font-size: 0.688rem;
+  font-weight: 600;
+  line-height: 1.82;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  color: black;
+  cursor: pointer;
+}
+
+.talk-btn:focus {
+  outline: none;
+}
+
+.talk-arrow {
+  width: 2.125rem;
+  height: 1.25rem;
+  color: #ffc001;
+}
+
+@media screen and (max-width: 500px) {
+  .headline-subhead-container {
+    flex-direction: column;
+  }
+
+  .headline,
+  .subhead {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 80vw;
+    text-align: center;
+  }
+
+  .cta {
+    height: 10vh;
+    width: 80vw;
+  }
+}
