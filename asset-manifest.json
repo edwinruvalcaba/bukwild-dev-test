@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bukwild-dev-test/static/css/main.c652379a.chunk.css",
+    "main.css": "/bukwild-dev-test/static/css/main.2e854121.chunk.css",
     "main.js": "/bukwild-dev-test/static/js/main.08e714eb.chunk.js",
     "main.js.map": "/bukwild-dev-test/static/js/main.08e714eb.chunk.js.map",
     "runtime-main.js": "/bukwild-dev-test/static/js/runtime-main.5b5f6e9f.js",
@@ -8,14 +8,14 @@
     "static/js/2.05440dec.chunk.js": "/bukwild-dev-test/static/js/2.05440dec.chunk.js",
     "static/js/2.05440dec.chunk.js.map": "/bukwild-dev-test/static/js/2.05440dec.chunk.js.map",
     "index.html": "/bukwild-dev-test/index.html",
-    "static/css/main.c652379a.chunk.css.map": "/bukwild-dev-test/static/css/main.c652379a.chunk.css.map",
+    "static/css/main.2e854121.chunk.css.map": "/bukwild-dev-test/static/css/main.2e854121.chunk.css.map",
     "static/js/2.05440dec.chunk.js.LICENSE.txt": "/bukwild-dev-test/static/js/2.05440dec.chunk.js.LICENSE.txt",
     "static/media/abc_logo.c72ca4e0.svg": "/bukwild-dev-test/static/media/abc_logo.c72ca4e0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5b5f6e9f.js",
     "static/js/2.05440dec.chunk.js",
-    "static/css/main.c652379a.chunk.css",
+    "static/css/main.2e854121.chunk.css",
     "static/js/main.08e714eb.chunk.js"
   ]
 }
